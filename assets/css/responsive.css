@@ -21,7 +21,16 @@
         display: inherit;
     }
     /* footer start */
+    .footer_top {
+        padding: 70px 0px 50px;
+    }
     .footer_logo{
         margin-bottom: 35px;
+    }
+    .design{
+        top: -45px;
+    }
+    .design img{
+        height: 90px;
     }
 }

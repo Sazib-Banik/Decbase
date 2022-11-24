@@ -71,6 +71,7 @@ body {
 /* footer start */
 #footer_area{
     background-color: #F8F8F8;
+    position: relative;
 }
 .footer_top{
     padding: 90px 0px 80px;
@@ -136,4 +137,13 @@ body {
 }
 .footer_text p a{
     color: #37806B;
+}
+.design{
+    position: absolute;
+    content: "";
+    top: -75px;
+    left: 0;
+}
+.design img{
+    height: 150px;
 }
