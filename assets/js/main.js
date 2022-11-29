@@ -10,7 +10,7 @@ $('.all-service-item').owlCarousel({
             nav:true
         },
         600:{
-            items:1,
+            items:2,
             nav:true
         },
         1000:{
