@@ -381,6 +381,43 @@ body {
 .blog_right_part{
   padding-left: 30px;
 }
+/* signup part start */
+#signup_part{
+  padding: 100px 0;
+}
+.sing_up_section h4{
+  font-size: 48px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 30px;
+  position: relative;
+}
+.sing_up_section h4::after {
+  position: absolute;
+  content: "";
+  top: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 1px;
+  background-color: #c4c4c4;
+}
+.sing_up_section p{
+  margin-bottom: 20px;
+}
+.sing_up_section input{
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 20px 0 0 0;
+  background: #eeeeee;
+  color: #646464;
+}
+.sing_up_section input:focus{
+  box-shadow: none;
+  outline: none;
+}
+
 /* footer start */
 #footer_area {
   background-color: #f8f8f8;

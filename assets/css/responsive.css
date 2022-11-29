@@ -71,6 +71,10 @@
     top: -30px;
     right: 0;
   }
+  /* signup start */
+  .sing_up_section h4 {
+    font-size: 44px;
+}
   /* footer start */
   .footer_menu ul li a {
     font-size: 16px;
@@ -319,6 +323,10 @@
   .blog_right_part {
     padding-left: 0px;
 }
+/* signup start */
+.sing_up_section h4 {
+  font-size: 36px;
+}
   /* footer start */
   .design img {
     height: 100px;
@@ -333,6 +341,10 @@
   p {
     font-size: 16px;
   }
+  .theme_btn {
+    font-size: 16px;
+    padding: 7px 30px;
+}
   #header_area .navbar-nav {
     text-align: center;
   }
@@ -459,6 +471,18 @@
   .blog_img {
     margin-bottom: 30px;
   }
+  /* signup start */
+  .sing_up_section h4 {
+    font-size: 20px;
+}
+.sing_up_section h4::after {
+  top: 45px;
+  width: 200px;
+}
+.sing_up_section input {
+  font-size: 16px;
+  padding: 7px 15px;
+}
   /* footer start */
   .design img {
     height: 100px;
