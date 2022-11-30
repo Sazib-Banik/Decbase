@@ -233,7 +233,7 @@ body {
   background-color: #37806b;
   color: #ffffff;
 }
-.all_testimonial_items .owl-nav span:hover{
+.all_testimonial_items .owl-nav span:hover {
   background-color: #37806b;
   color: #ffffff;
 }
@@ -261,7 +261,7 @@ body {
   margin-bottom: 30px;
 }
 .blog_img img,
-.success_img img{
+.success_img img {
   border-radius: 120px 0;
 }
 /* completed work start */
@@ -325,13 +325,13 @@ body {
   margin-top: 100px;
 }
 /* testimonial start */
-#testimonial_part{
+#testimonial_part {
   padding: 100px 0;
 }
-#testimonial_part .section_heading{
+#testimonial_part .section_heading {
   margin-bottom: 50px;
 }
-.all_testimonial_items .testimonial_box{
+.all_testimonial_items .testimonial_box {
   display: flex;
 }
 .all_testimonial_items .testimonial_img {
@@ -347,45 +347,47 @@ body {
   padding: 35px 90px;
   margin-left: -70px;
   z-index: -1;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 20px 0px rgb(66 96 84 / 15%);
   border-radius: 70px 0px;
 }
-.all_testimonial_items .testimonial_content h4{
+.all_testimonial_items .testimonial_content h4 {
   font-size: 24px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
-.all_testimonial_items .testimonial_content h4 span{
+.all_testimonial_items .testimonial_content h4 span {
   font-size: 18px;
   font-weight: 400;
 }
 /* blog part start */
-#blog_part{
+#blog_part {
   padding: 100px 0;
   background-color: #f8f8f8;
 }
-#blog_part .section_heading{
+#blog_part .section_heading {
   margin-bottom: 50px;
 }
-.blog_img{margin-bottom: 60px;}
-.blog_content h5{
+.blog_img {
+  margin-bottom: 60px;
+}
+.blog_content h5 {
   font-size: 20px;
   color: #212121;
   margin-bottom: 10px;
   font-weight: 700;
 }
-.blog_left_part{
+.blog_left_part {
   padding-right: 30px;
 }
-.blog_right_part{
+.blog_right_part {
   padding-left: 30px;
 }
 /* signup part start */
-#signup_part{
+#signup_part {
   padding: 100px 0;
 }
-.sing_up_section h4{
+.sing_up_section h4 {
   font-size: 48px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
@@ -402,10 +404,10 @@ body {
   height: 1px;
   background-color: #c4c4c4;
 }
-.sing_up_section p{
+.sing_up_section p {
   margin-bottom: 20px;
 }
-.sing_up_section input{
+.sing_up_section input {
   font-size: 18px;
   font-weight: 500;
   padding: 10px 15px;
@@ -413,7 +415,7 @@ body {
   background: #eeeeee;
   color: #646464;
 }
-.sing_up_section input:focus{
+.sing_up_section input:focus {
   box-shadow: none;
   outline: none;
 }

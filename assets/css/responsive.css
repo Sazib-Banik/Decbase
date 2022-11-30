@@ -74,7 +74,7 @@
   /* signup start */
   .sing_up_section h4 {
     font-size: 44px;
-}
+  }
   /* footer start */
   .footer_menu ul li a {
     font-size: 16px;
@@ -181,7 +181,7 @@
   }
   .blog_right_part {
     padding-left: 0px;
-}
+  }
   /* footer start */
   .footer_top {
     padding: 70px 0px 50px;
@@ -322,11 +322,11 @@
   }
   .blog_right_part {
     padding-left: 0px;
-}
-/* signup start */
-.sing_up_section h4 {
-  font-size: 36px;
-}
+  }
+  /* signup start */
+  .sing_up_section h4 {
+    font-size: 36px;
+  }
   /* footer start */
   .design img {
     height: 100px;
@@ -344,7 +344,7 @@
   .theme_btn {
     font-size: 16px;
     padding: 7px 30px;
-}
+  }
   #header_area .navbar-nav {
     text-align: center;
   }
@@ -380,6 +380,7 @@
     bottom: -50px;
   }
   /* service start */
+  #testimonial_part,
   #success_part,
   #about_part,
   #service_part {
@@ -420,11 +421,11 @@
     position: absolute;
     content: "";
     top: 15%;
-    left: 10%;
+    left: 15%;
     width: 1px;
     height: 75%;
     background-color: #e0e0e0;
-  }
+}
   .single_work {
     margin: 0 auto;
     position: relative;
@@ -468,22 +469,36 @@
     right: 0;
   }
   /* blog part start */
+  #blog_part .section_heading {
+    margin-bottom: 30px;
+}
   .blog_img {
     margin-bottom: 30px;
   }
+  .blog_right_part {
+    padding-left: 0px;
+}
   /* signup start */
   .sing_up_section h4 {
     font-size: 20px;
-}
-.sing_up_section h4::after {
-  top: 45px;
-  width: 200px;
-}
-.sing_up_section input {
-  font-size: 16px;
-  padding: 7px 15px;
-}
+  }
+  .sing_up_section h4::after {
+    top: 45px;
+    width: 200px;
+  }
+  .sing_up_section input {
+    font-size: 16px;
+    padding: 7px 15px;
+  }
   /* footer start */
+  .footer_top{
+    text-align: center;
+    padding: 70px 0px 40px;
+  }
+  .footer_menu h4 {
+    margin-bottom: 15px;
+    padding-top: 25px;
+}
   .design img {
     height: 100px;
   }
