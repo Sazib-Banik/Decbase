@@ -380,6 +380,7 @@
     bottom: -50px;
   }
   /* service start */
+  #completed_work,
   #testimonial_part,
   #success_part,
   #about_part,
@@ -410,9 +411,12 @@
     padding-top: 35px;
     padding-left: 10px;
   }
+  #about_part .hero_design_img {
+    bottom: -75px;
+}
   /* completed work start */
   #completed_work .section_heading {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .single_work_wrap {
     position: relative;
@@ -421,7 +425,7 @@
     position: absolute;
     content: "";
     top: 15%;
-    left: 15%;
+    left: 14%;
     width: 1px;
     height: 75%;
     background-color: #e0e0e0;
@@ -477,6 +481,7 @@
   }
   .blog_right_part {
     padding-left: 0px;
+    margin-top: 50px;
 }
   /* signup start */
   .sing_up_section h4 {
