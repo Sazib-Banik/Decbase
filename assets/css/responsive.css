@@ -16,8 +16,11 @@
     top: 0px;
     border-top: none;
   }
+  
 }
-/*// lg devices (tablets, 768px and up)*/
+/*
+// lg devices (tablets, 768px and up)
+*/
 @media (min-width: 992px) and (max-width: 1200px) {
   #header_area .nav-item {
     margin: 0px 5px;
@@ -71,6 +74,9 @@
     top: -30px;
     right: 0;
   }
+  .testimonial_box .testimonial_content h4 span{
+    display: inline-block;
+  }
   /* signup start */
   .sing_up_section h4 {
     font-size: 44px;
@@ -85,7 +91,9 @@
   }
 }
 
-/*// Medium devices (tablets, 768px and up)*/
+/*
+// Medium devices (tablets, 768px and up)
+*/
 @media (min-width: 768px) and (max-width: 991px) {
   p {
     font-size: 16px;
@@ -197,7 +205,9 @@
   }
 }
 
-/*// Small devices (landscape phones, 576px and up)*/
+/*
+// Small devices (landscape phones, 576px and up)
+*/
 @media (min-width: 576px) and (max-width: 767px) {
   p {
     font-size: 16px;
@@ -316,6 +326,9 @@
   .all_testimonial_items .testimonial_content {
     padding-right: 30px;
   }
+  .testimonial_box .testimonial_content h4 span{
+    display: block;
+  }
   /* blog part start */
   .blog_img {
     margin-bottom: 30px;
@@ -336,7 +349,9 @@
   }
 }
 
-/*// extra-Small devices (landscape phones, 320px and up)*/
+/*
+  // extra-Small devices (landscape phones, 320px and up)
+*/
 @media (min-width: 320px) and (max-width: 575px) {
   p {
     font-size: 16px;
@@ -413,7 +428,7 @@
   }
   #about_part .hero_design_img {
     bottom: -75px;
-}
+  }
   /* completed work start */
   #completed_work .section_heading {
     margin-bottom: 30px;
@@ -429,7 +444,7 @@
     width: 1px;
     height: 75%;
     background-color: #e0e0e0;
-}
+  }
   .single_work {
     margin: 0 auto;
     position: relative;
@@ -472,17 +487,20 @@
     top: -30px;
     right: 0;
   }
+  .testimonial_box .testimonial_content h4 span{
+    display: block;
+  }
   /* blog part start */
   #blog_part .section_heading {
     margin-bottom: 30px;
-}
+  }
   .blog_img {
     margin-bottom: 30px;
   }
   .blog_right_part {
     padding-left: 0px;
     margin-top: 50px;
-}
+  }
   /* signup start */
   .sing_up_section h4 {
     font-size: 20px;
@@ -496,14 +514,14 @@
     padding: 7px 15px;
   }
   /* footer start */
-  .footer_top{
+  .footer_top {
     text-align: center;
     padding: 70px 0px 40px;
   }
   .footer_menu h4 {
     margin-bottom: 15px;
     padding-top: 25px;
-}
+  }
   .design img {
     height: 100px;
   }

@@ -333,6 +333,14 @@ body {
 }
 .all_testimonial_items .testimonial_box {
   display: flex;
+  position: relative;
+}
+.all_testimonial_items .quoet {
+  position: absolute;
+  top: 0;
+  right: 35px;
+  font-size: 50px;
+  color: #b0855b;
 }
 .all_testimonial_items .testimonial_img {
   width: 300px;
@@ -344,7 +352,8 @@ body {
   border-radius: 10px 0;
 }
 .all_testimonial_items .testimonial_content {
-  padding: 35px 90px;
+  padding: 35px;
+  padding-left: 90px;
   margin-left: -70px;
   z-index: -1;
   background: #ffffff;
